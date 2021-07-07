@@ -1,0 +1,13 @@
+name = "ReverseDiffDSGE"
+uuid = "6b4895b2-a8a5-44ba-a373-d4b4814574d9"
+authors = ["Alfred Duncan <a.j.m.duncan@kent.ac.uk> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
