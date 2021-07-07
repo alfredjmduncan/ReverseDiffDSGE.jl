@@ -2,9 +2,12 @@
 """
 kalman_ll(bk,y,B)
 
-Derive the log-likelihood of time series y given
-DSGE solution bk. B is a vector containing the indexes
-of the observed variables.
+Derive the log-likelihood (up to constant) of time series y given
+DSGE solution bk. B is a vector containing the indexes of the
+observed variables.
+
+Based on the MXNet function LDS_forward, which can be found here:
+https://gluon.mxnet.io/chapter12_time-series/lds-scratch.html
 """
 
 
