@@ -53,7 +53,7 @@ function ChainRulesCore.rrule(::typeof(blanchardkahn), Γ)
     function blanchardkahn_pullback(ΔΦ)
 
         # If you use or extend this code, please cite
-        # Duncan, Alfred (2020) "Reverse Mode Differentiation for DSGE Models,"
+        # Duncan, Alfred (2021) "Reverse Mode Differentiation for DSGE Models,"
         # University of Kent Discussion Paper Series.
 
         CAΔΦ = ComponentArray(ΔΦ,getaxes(Φ))

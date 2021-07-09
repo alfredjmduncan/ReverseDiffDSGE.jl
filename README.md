@@ -1,6 +1,8 @@
 # ReverseDiffDSGE
 
-This package provides proof-of-concept code for estimating linear rational
+This package provides a reverse mode derivative for linearised rational expectations
+(DSGE) models.
+This reverse mode derivative can be used to enable the estimation of linearised rational
 expectations models using derivative based samplers (e.g. NUTS, and Hamiltonian Monte Carlo).
 The package uses reverse mode differentiation to efficiently calculate
 gradients of the likelihood function with respect to the underlying model
@@ -16,5 +18,5 @@ This package should not be considered a toolbox.
 
 Please cite
 
-Duncan, Alfred (2020) "Reverse Mode Differentiation for DSGE Models,"
+Duncan, Alfred (2021) "Reverse Mode Differentiation for DSGE Models,"
 University of Kent Discussion Paper Series.
