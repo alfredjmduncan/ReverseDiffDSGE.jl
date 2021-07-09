@@ -29,6 +29,6 @@ and Metropolis Hastings (red, dashed, 1.5 x 10^6 iters per chain)
 for the small scale New Keynesian model described by Herbst and Schorfheide (2016).
 
 It is clear from the figure that the MCMC chains generated using NUTS
- converge much more quickly than those generated using MH.
+ converge much more quickly (in terms of elapsed time) than those generated using MH.
 
 ![](assets/chains_t.svg)
