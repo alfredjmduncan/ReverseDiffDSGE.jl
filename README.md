@@ -19,7 +19,7 @@ This package should not be considered a toolbox.
 Please cite
 
 Duncan, Alfred (2021) "Reverse Mode Differentiation for DSGE Models,"
-University of Kent Discussion Paper Series.
+University of Kent School of Economics Discussion Papers 2108.
 
 ## Why use derivative based samplers?
 
